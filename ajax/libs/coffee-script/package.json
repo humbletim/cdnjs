@@ -25,13 +25,13 @@
       "url": "https://github.com/jashkenas/coffeescript.git"
     }
   ],
-  "npmName": "coffee-script",
-  "npmFileMap": [
-    {
-      "basePath": "/lib/coffee-script/",
-      "files": [
-        "coffee-script.js"
-      ]
-    }
-  ]
+  "namespace": "CoffeeScript",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/jashkenas/coffeescript.git",
+    "basePath": "/extras",
+    "files": [
+      "coffee-script.js"
+    ]
+  }
 }
